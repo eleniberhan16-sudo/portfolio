@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eleni Berhan | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav-bar">
+      <div class="brand">Eleni Berhan</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Aspiring Web Developer</p>
+        <h1>Hi, I'm Eleni Berhan</h1>
+        <p>I am an Information Technology student with a strong interest in web development. I build responsive websites using HTML, CSS, JavaScript, and PHP.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#projects">See Projects</a>
+          <a class="button button-secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo-card">
+        <div class="photo-frame">
+          <img src="eleni.jpg" alt="Eleni Berhan" class="profile-photo" />
+        </div>
+        <div class="photo-caption">Eleni Berhan</div>
+        <div class="photo-subtitle">IT Student, Web Developer</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="section-header">
+        <span>About</span>
+        <h2>Information Technology student with a passion for web development</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>My studies at Bahirdar University have given me strong foundations in programming, networks, and databases. I enjoy solving problems and learning new technologies while building user-friendly websites and academic projects.</p>
+          <ul>
+            <li>📧 eleniberhan12@gmail.com</li>
+            <li>📞 0984960708</li>
+            <li>📍 Bahirdar, Ethiopia</li>
+            <li>🎓 BSc Information Technology</li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-header">
+        <span>Skills</span>
+        <h2>Technical skills and tools I use</h2>
+      </div>
+      <div class="skill-category-grid">
+        <div class="skill-group">
+          <h3>Web</h3>
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">PHP</div>
+        </div>
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <div class="skill-card">Java</div>
+          <div class="skill-card">PHP</div>
+          <div class="skill-card">MySQL</div>
+          <div class="skill-card">Networking Basics</div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <div class="skill-card">Git</div>
+          <div class="skill-card">VS Code</div>
+          <div class="skill-card">Responsive Design</div>
+        </div>
+        <div class="skill-group">
+          <h3>Operating Systems</h3>
+          <div class="skill-card">Windows</div>
+          <div class="skill-card">Linux</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-header">
+        <span>Projects</span>
+        <h2>Interactive project showcase</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card" data-title="Pharmacy Management System" data-detail="A pharmacy management application developed with Java and JavaFX. It handles inventory, sales, and records in a responsive desktop-style interface.">
+          <h3>Pharmacy Management System</h3>
+          <p>Developed with Java and JavaFX for inventory and sales control.</p>
+          <button class="project-button">View details</button>
+        </article>
+        <article class="project-card" data-title="Distributed Library System" data-detail="A distributed library management system built using Java and JavaFX. It supports book borrowing, member tracking, and multiple user roles.">
+          <h3>Distributed Library System</h3>
+          <p>Built with Java and JavaFX for library resource management.</p>
+          <button class="project-button">View details</button>
+        </article>
+        <article class="project-card" data-title="Class Sync Mobile App" data-detail="A mobile application prototype to support class sync, messaging, and task organization.">
+          <h3>Class Sync Mobile App</h3>
+          <p>A prototype for connecting students and instructors in class coordination.</p>
+          <button class="project-button">View details</button>
+        </article>
+      </div>
+      <div class="project-detail-panel" id="projectDetail">
+        <h3>Select a project to see details</h3>
+        <p>Click any project card to learn more about the work and technologies used.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-header">
+        <span>Contact</span>
+        <h2>Let’s build something together</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Reach out</h3>
+          <p>I'm available for internship opportunities, freelance work, and collaborative projects.</p>
+          <ul>
+            <li>Email: <a href="mailto:eleniberhan12@gmail.com">eleniberhan12@gmail.com</a></li>
+            <li>Phone: <a href="tel:+251984960708">0984960708</a></li>
+            <li>GitHub: <a href="https://github.com/eleniberhan16-sudo" target="_blank">github.com/eleniberhan16-sudo</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/eleni-berhan-7659bb406" target="_blank">linkedin.com/in/eleni-berhan-7659bb406</a></li>
+          </ul>
+        </div>
+        <div class="contact-card contact-action">
+          <h3>Quick message</h3>
+          <p>Click the button to copy my email and start a new conversation.</p>
+          <button class="button button-primary" id="copyEmailBtn">Copy Email</button>
+          <p id="copyStatus" class="copy-status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Eleni Berhan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
