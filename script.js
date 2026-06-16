@@ -15,6 +15,7 @@ projectCards.forEach((card) => {
   });
 });
 
+
 copyEmailBtn.addEventListener('click', async () => {
   const email = 'eleniberhan12@gmail.com';
   try {
